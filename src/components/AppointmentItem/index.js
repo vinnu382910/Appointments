@@ -15,7 +15,7 @@ const Appointmentitem = props => {
   return (
     <li className="box-cont">
       <div className="box-heading-cont">
-        <h1 className="box-heading">{title}</h1>
+        <p className="box-heading">{title}</p>
         <button
           onClick={onClickStar}
           type="button"
