@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.main-cont {
+  background: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-cont {
+  width: 1200px;
+  border-radius: 8px;
+  padding: 35px;
+  padding-top: 35px;
+  background-color: #fff;
+}
+
+.card-desc {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 44px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.input-date {
+  margin-bottom: 15px;
+  width: 220px;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.main-heading2 {
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+.starred-button {
+  background-color: transparent;
+  color: #9897f0;
+  font-weight: bold;
+  height: 25px;
+  width: 75px;
+  border-radius: 10px;
+  border-color: #b5b7c4;
+  cursor: pointer;
+}
+
+.appointments-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.starbutton2 {
+  color: #fff;
+  background-color: #8b5cf6;
+}
